@@ -1,7 +1,7 @@
 name: terrarium4u
 favicon: null
-layout_spectrum: 0.4913051794283092
-typography_spectrum: 0.7024792097508907
+layout_spectrum: 1
+typography_spectrum: 0.76222
 cta:
   domain: null
   bucket: null
@@ -16,13 +16,13 @@ opengraph:
   appId: null
 color:
   brandColors:
-    - '#A690A4'
-    - '#B68F9D'
-    - '#C8ACAB'
-    - '#FBB9BF'
-    - '#E376B7'
-  brandStrength: 0.35068108956329525
-  lightness: 0.12565365084446967
-  saturation: 0.9333900457713753
-  rhythmicContrast: 0.6900907773524523
+    - '#c9dbeb'
+    - '#706459'
+    - '#0e151a'
+    - '#4a3e3b'
+    - '#a9ac9d'
+  brandStrength: 0.3125
+  lightness: 0.3125
+  saturation: 1
+  rhythmicContrast: 0.5
 purpose: []
