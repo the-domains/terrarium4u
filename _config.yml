@@ -1,28 +1,38 @@
-name: terrarium4u
 favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.76222
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: terrarium4u
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#c9dbeb'
-    - '#706459'
-    - '#0e151a'
-    - '#4a3e3b'
-    - '#a9ac9d'
-  brandStrength: 0.5
-  lightness: 0.3125
-  saturation: 1
-  rhythmicContrast: 0.5
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 1
+  brandStrength: 0.001792115
+  lightness: 0.6003584
+  brandColors:
+    - '#F0F0F2'
+    - '#ACAD92'
+    - '#5A5A5C'
+  rhythmicContrast: 0.5
+typography_spectrum: 0.5
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+layout_spectrum: 0
